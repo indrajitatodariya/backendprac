@@ -1,6 +1,7 @@
 {
   "name": "backendprac",
   "version": "1.0.0",
+  "type": "module",
   "description": "practice for backend",
   "main": "index.js",
   "scripts": {
@@ -11,5 +12,9 @@
     "backend"
   ],
   "author": "Indrajitsinh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  }
 }
